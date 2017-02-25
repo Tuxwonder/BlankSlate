@@ -44,10 +44,10 @@ public class BlinkLED {
 				
 				String message = "";
 				Scanner in = new Scanner(System.in);
-				while(!message.equals("quit")) {
+				while(message != "quit") {
 					message = in.next();
 					link.sendCustomMessage(message);
-					System.out.println("Message Sent: " + message);
+					System.out.println("Message Sent");
 					
 				}
 			} else {
