@@ -1,0 +1,19 @@
+package test_package;
+
+import java.util.Arrays;
+
+public class exampractice {
+	  public static void main(String[] args)
+	  {
+		  String test = "Grass is green //";
+		  int start = test.indexOf("//");
+		  System.out.println(test);
+		  System.out.println(test.substring(0,start));
+		  
+	  }
+	  
+	  public static void method(int[] str)
+	  {
+		  str[1] = 7;
+	  }
+}
