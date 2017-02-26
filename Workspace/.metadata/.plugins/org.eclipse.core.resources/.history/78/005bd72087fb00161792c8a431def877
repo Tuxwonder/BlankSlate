@@ -1,5 +1,4 @@
 import java.awt.Point;
-import org.zu.ardulink.Link;
 
 public class Whiteboard {
 	public Point getLocation()

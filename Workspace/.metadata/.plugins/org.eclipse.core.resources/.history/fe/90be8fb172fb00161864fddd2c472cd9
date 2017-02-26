@@ -23,6 +23,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 import org.zu.ardulink.Link;
+import org.zu.ardulink.connection.usb.DigisparkUSBConnection;
 import org.zu.ardulink.protocol.IProtocol;
 import org.zu.ardulink.protocol.ProtocolHandler;
 import org.zu.ardulink.protocol.SimpleBinaryProtocol;

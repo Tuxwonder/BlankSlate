@@ -19,7 +19,7 @@ Servo servo1;
 boolean autoStepper[] = {false, false, false, false};
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   servo1.attach(9);
 
   ms1.begin();
@@ -29,9 +29,6 @@ void setup() {
   stepper2->setSpeed(30);
   stepper3->setSpeed(30);
 
-  stepper1->release();
-  stepper2->release();
-  stepper3->release();
 }
 
 void loop() {
